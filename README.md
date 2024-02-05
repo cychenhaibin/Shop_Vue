@@ -56,22 +56,22 @@
 
 ## 一、项目初始化
 
-#### 1、项目创建
+### 1、项目创建
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/abbc09a7-805d-4763-bf91-56f2eace0bfb)
 
 
-#### 2、elementPlus按需导入
+### 2、elementPlus按需导入
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/e5f7e09e-635d-4341-8e9a-2fe5aea35895)
 
 
-#### 3、项目主题色与scss样式自动导入（蓝色改绿色）
+### 3、项目主题色与scss样式自动导入（蓝色改绿色）
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/55fbc8c4-9c4c-4036-9606-725c9b0c70d7)
 
 
-#### 4、axios配置
+### 4、axios配置
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/f590cf96-3ab0-41ad-9c27-b544f968dc3d)
 
@@ -79,7 +79,7 @@
 - axios请求拦截器，进行token身份验证
 - axios响应拦截器，进行错误的统一提示，token失效的处理等
 
-#### 5、项目路由设置
+### 5、项目路由设置
 
 - 一级路由
 
@@ -103,7 +103,7 @@
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/86f58b80-67e2-42ed-b038-d564fcab26be)
 
 
-#### 1、需求分析与搭建组件结构
+### 1、需求分析与搭建组件结构
 
 目录结构
 
@@ -123,7 +123,7 @@
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/465ecc75-cc73-4eb6-aac5-002aa1ab6e90)
 
 
-#### 2、阿里字体图标渲染
+### 2、阿里字体图标渲染
 
 字体图标采用的是阿里的字体图标库
 
@@ -138,14 +138,14 @@ https://www.iconfont.cn
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/95da9b9f-1751-408d-beaa-f707fbd1aea8)
 
 
-#### 3、Header导航动态渲染
+### 3、Header导航动态渲染
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/1228623b-5339-4c71-b5fc-94a1dbbc767e)
 
 
 - apis/layout.js
 
-#### 4、吸顶导航交互实现
+### 4、吸顶导航交互实现
 
 安装依赖
 
@@ -195,7 +195,7 @@ const categotyStore = useCategoryStore();
 
 
 
-#### 5、Pinia优化重复请求
+### 5、Pinia优化重复请求
 
 优化设计
 
@@ -224,7 +224,7 @@ const categotyStore = useCategoryStore();
 
 ## 三、Home页面
 
-#### 1、需求分析与搭建组件结构
+### 1、需求分析与搭建组件结构
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/0085c110-6967-4291-87ce-1a1551ab091d)
 
@@ -235,7 +235,7 @@ const categotyStore = useCategoryStore();
 - HomeHot：人气推荐
 - HomeProduct：产品列表
 
-#### 2、实现图片懒加载
+### 2、实现图片懒加载
 
 directives/index.js
 
@@ -268,7 +268,7 @@ export const lazyPlugin = {
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/3526198a-8620-4646-94e1-51bd72b7d272)
 
-#### 3、封装Goodsitem组件
+### 3、封装Goodsitem组件
 
 首页、一级分类页面、二级分类页面大量的图片组件封装
 
@@ -298,7 +298,7 @@ defineProps({
 
 ## 四、一级分类页
 
-#### 1、一级面包屑导航
+### 1、一级面包屑导航
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/30f05e75-6b25-46ec-95f7-02a8e87245e1)
 
@@ -341,7 +341,7 @@ export function useCategory() {
 
 
 
-#### 2、路由缓存及滚动行为
+### 2、路由缓存及滚动行为
 
 ```javascript
  onBeforeRouteUpdate((to)=>{
@@ -364,7 +364,7 @@ scrollBehavior(){
 
 
 
-#### 3、业务逻辑函数拆分
+### 3、业务逻辑函数拆分
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/b8828663-5a59-46ed-9f53-b76a0155e2f1)
 
@@ -372,7 +372,7 @@ scrollBehavior(){
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/db4a2e2d-88c2-4bfc-9aa2-db619f6caebf)
 
 
-#### 4、分类列表渲染
+### 4、分类列表渲染
 
 ```html
 <!-- 分类产品图片 -->
@@ -407,7 +407,7 @@ scrollBehavior(){
 
 ## 五、二级分类页
 
-#### 1、二级面包屑导航
+### 1、二级面包屑导航
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/0c05f94c-77e4-4105-b896-79cce3f2cda2)
 
@@ -423,14 +423,14 @@ scrollBehavior(){
     </div>
 ```
 
-#### 2、数据渲染
+### 2、数据渲染
 
 请求数据如下
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/dab8fa15-46d1-4798-b080-72aa40600b73)
 
 
-#### 3、列表的无限加载
+### 3、列表的无限加载
 
 element-plus 
 
@@ -468,7 +468,7 @@ const load = async () => {
 
 ## 六、详情页Detail/index.vue
 
-#### 1、路由
+### 1、路由
 
 ```javascript
 {
@@ -477,7 +477,7 @@ const load = async () => {
 },
 ```
 
-#### 2、数据渲染
+### 2、数据渲染
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/df22970f-edcb-4244-8b5a-a5c619e2a2b7)
 
@@ -487,7 +487,7 @@ const load = async () => {
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/d567864a-33b0-40fa-8a57-25ec5fee573f)
 
 
-#### 2、热榜组件
+### 3、热榜组件
 
 ```vue
 <div class="goods-aside">
@@ -544,7 +544,7 @@ onMounted(()=>getHotList())
   </div>
 ```
 
-#### 3、小图切换大图、放大镜
+### 4、小图切换大图、放大镜
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/241f2d05-bb07-465b-aa50-079fc4d61bab)
 
@@ -645,7 +645,7 @@ watch([elementX, elementY, isOutside], () => {
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/4dfd30fd-3137-4db3-ac6b-82afe09248cf)
 
-#### 3、第三方SKU组件
+### 5、第三方SKU组件
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/12531cfc-1b2b-4f18-96a0-457969592fbe)
 
@@ -661,7 +661,7 @@ watch([elementX, elementY, isOutside], () => {
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/70b3eac5-61bb-4ebd-9f2d-a9b106fd4ded)
 
 
-#### 全局组件差异化配置
+### 6、全局组件差异化配置
 
 ```javascript
 import ImageView from './ImageView/index.vue'
@@ -682,7 +682,7 @@ export const componentPlugin = {
 账号：heima290
 密码：hm#qd@23!
 
-#### 1、路由
+### 1、路由
 
 ```javascript
 {
@@ -695,7 +695,7 @@ export const componentPlugin = {
 }
 ```
 
-#### 2、保持用户登录状态
+### 2、保持用户登录状态
 
 - 安装pinia数据持久化插件
 
@@ -733,7 +733,7 @@ export const componentPlugin = {
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/ad2e440e-830b-42b4-aa8e-be6860af4c98)
 
 
-#### 3、axios拦截器设置
+### 3、axios拦截器设置
 
 拦截器处理错误提示
 
@@ -787,7 +787,7 @@ error的具体封装消息
 
 ## 八、结算支付
 
-#### 1、创建订单并跳转支付
+### 1、创建订单并跳转支付
 
 - 路由
 
@@ -826,7 +826,7 @@ error的具体封装消息
 
   
 
-#### 2、支付倒计时显示
+### 2、支付倒计时显示
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/4e381277-71fd-4c34-bb38-5cd3bcbf9b57)
 
@@ -862,7 +862,7 @@ export const useCountDown = () => {
 
 
 
-#### 3、调用沙箱支付接口
+### 3、调用沙箱支付接口
 
 ```javascript
 // 支付地址
@@ -878,7 +878,7 @@ const payUrl = `${baseURL}pay/aliPay?orderId=${route.query.id}&redirect=${redire
 
 支付密码：111111
 
-### 九、个人中心
+## 九、个人中心
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/5e3b5578-7fc6-43d9-b0df-dd4a8e1c7de9)
 
@@ -887,7 +887,7 @@ const payUrl = `${baseURL}pay/aliPay?orderId=${route.query.id}&redirect=${redire
 
 
 
-#### 1、订单状态
+### 1、订单状态
 
 ```vue
 const fomartPayState = (payState) => {
@@ -903,7 +903,7 @@ const fomartPayState = (payState) => {
 }
 ```
 
-#### 3、tab栏切换
+### 2、tab栏切换
 
 ```
 const tabChange = (type) => {
@@ -912,4 +912,4 @@ const tabChange = (type) => {
 }
 ```
 
-##### 因为没有写注册的接口，所以注册信息无法写入数据库
+### 因为没有写注册的接口，所以注册信息无法写入数据库
