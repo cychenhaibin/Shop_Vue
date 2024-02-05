@@ -4,8 +4,7 @@
 
 项目部署服务器地址：http://47.108.196.186/
 
-后端接口文档：[https://www.apifox.cn/apidoc/shared-c05cb8d7-e591-4d9c-aff8-11065a0ec1de/api-67132167](https://www.apifox.cn/apidoc/shared-c05cb8d7-e591-4d9c-aff8-11065a0ec1de/api-67132167)
-接口来自黑马的小兔鲜
+后端接口文档：[https://www.apifox.cn/apidoc/shared-c05cb8d7-e591-4d9c-aff8-11065a0ec1de/api-67132167](https://www.apifox.cn/apidoc/shared-c05cb8d7-e591-4d9c-aff8-11065a0ec1de/api-67132167)<br>接口来自黑马的小兔鲜
 ## 技术栈
 
 工程化构建工具：Vue-cli -> Vite 
@@ -686,10 +685,11 @@ watch([elementX, elementY, isOutside], () => {
 问：在实际工作中，经常会遇到别人写好的组件，熟悉一个三方组件，首先重点看什么？
 答：props和emit，props决定了当前组件接收什么数据，emit决定了会产出什么数据
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/e1889161-0c26-4370-9de0-6a8851aa0a2f)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/773cb63e-fac9-406c-a075-13c4be468a93)
 
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/70b3eac5-61bb-4ebd-9f2d-a9b106fd4ded)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/6fc117bd-6f28-472e-b675-efa34cbf3e7d)
+
 
 <br>
 
@@ -766,7 +766,8 @@ export const componentPlugin = {
   )
   ```
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/ad2e440e-830b-42b4-aa8e-be6860af4c98)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/745f92c7-a1f2-4b48-aa3c-f8311ba7defe)
+
 
 <br>
 
@@ -787,7 +788,8 @@ try {
 
 error的具体封装消息
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/366e8212-fb8f-4b7d-b6c9-e24a8ff7cb87)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/1797a413-9ad2-4619-8fc0-788f5e57f31b)
+
 
 
 - 请求拦截器携带token
@@ -803,7 +805,8 @@ error的具体封装消息
   }, e => Promise.reject(e))
   ```
 
-  ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/c80109b4-6152-4e54-8530-428f7cbfca61)
+  ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/060b6058-8fc0-40ea-adb1-66574fcacab2)
+
 
 
 - 响应拦截器处理token失效
@@ -867,7 +870,8 @@ error的具体封装消息
 
 ### 2、支付倒计时显示
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/4e381277-71fd-4c34-bb38-5cd3bcbf9b57)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/d0b4cdec-c4a7-4c12-89bf-6a07469d8f7b)
+
 
 
 ```javascript
