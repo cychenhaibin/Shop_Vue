@@ -78,10 +78,11 @@
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/f590cf96-3ab0-41ad-9c27-b544f968dc3d)
 
-<br>
 
 - axios请求拦截器，进行token身份验证
 - axios响应拦截器，进行错误的统一提示，token失效的处理等
+
+<br>
 
 ### 5、项目路由设置
 
@@ -102,10 +103,13 @@
 
 - 渲染显示：RouterView
 
+<br>
+
 ## 二、Layout布局结构
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/86f58b80-67e2-42ed-b038-d564fcab26be)
 
+<br>
 
 ### 1、需求分析与搭建组件结构
 
@@ -126,6 +130,7 @@
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/465ecc75-cc73-4eb6-aac5-002aa1ab6e90)
 
+<br>
 
 ### 2、阿里字体图标渲染
 
@@ -141,6 +146,8 @@ https://www.iconfont.cn
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/95da9b9f-1751-408d-beaa-f707fbd1aea8)
 
+<br>
+
 
 ### 3、Header导航动态渲染
 
@@ -148,6 +155,8 @@ https://www.iconfont.cn
 
 
 - apis/layout.js
+
+<br>
 
 ### 4、吸顶导航交互实现
 
@@ -197,6 +206,7 @@ const categotyStore = useCategoryStore();
 </template>
 ```
 
+<br>
 
 
 ### 5、Pinia优化重复请求
@@ -224,7 +234,7 @@ const categotyStore = useCategoryStore();
   })
   ```
 
-  
+<br>
 
 ## 三、Home页面
 
@@ -238,6 +248,8 @@ const categotyStore = useCategoryStore();
 - HomeNew：新鲜好物
 - HomeHot：人气推荐
 - HomeProduct：产品列表
+
+<br>
 
 ### 2、实现图片懒加载
 
@@ -272,6 +284,8 @@ export const lazyPlugin = {
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/3526198a-8620-4646-94e1-51bd72b7d272)
 
+<br>
+
 ### 3、封装Goodsitem组件
 
 首页、一级分类页面、二级分类页面大量的图片组件封装
@@ -299,6 +313,8 @@ defineProps({
   </RouterLink>
 </template>
 ```
+
+<br>
 
 ## 四、一级分类页
 
@@ -343,7 +359,7 @@ export function useCategory() {
       </div>
 ```
 
-
+<br>
 
 ### 2、路由缓存及滚动行为
 
@@ -366,7 +382,7 @@ scrollBehavior(){
   }
 ```
 
-
+<br>
 
 ### 3、业务逻辑函数拆分
 
@@ -375,6 +391,7 @@ scrollBehavior(){
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/db4a2e2d-88c2-4bfc-9aa2-db619f6caebf)
 
+<br>
 
 ### 4、分类列表渲染
 
@@ -406,7 +423,7 @@ scrollBehavior(){
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/a07cc85c-0d66-435e-8019-838a015feb04)
 
-
+<br>
 
 
 ## 五、二级分类页
@@ -427,19 +444,21 @@ scrollBehavior(){
     </div>
 ```
 
+<br>
+
 ### 2、数据渲染
 
 请求数据如下
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/dab8fa15-46d1-4798-b080-72aa40600b73)
 
+<br>
 
 ### 3、列表的无限加载
 
 element-plus 
 
 https://element-plus.org/zh-CN/component/infinite-scroll.html#%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95
-
 
 
 基础思路
@@ -469,6 +488,7 @@ const load = async () => {
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/fdf7e1a6-0b6d-43b1-8448-da45ef0bf03b)
 
+<br>
 
 ## 六、详情页Detail/index.vue
 
@@ -481,6 +501,8 @@ const load = async () => {
 },
 ```
 
+<br>
+
 ### 2、数据渲染
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/df22970f-edcb-4244-8b5a-a5c619e2a2b7)
@@ -490,6 +512,7 @@ const load = async () => {
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/d567864a-33b0-40fa-8a57-25ec5fee573f)
 
+<br>
 
 ### 3、热榜组件
 
@@ -547,6 +570,8 @@ onMounted(()=>getHotList())
     </RouterLink>
   </div>
 ```
+
+<br>
 
 ### 4、小图切换大图、放大镜
 
@@ -649,6 +674,8 @@ watch([elementX, elementY, isOutside], () => {
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/4dfd30fd-3137-4db3-ac6b-82afe09248cf)
 
+<br>
+
 ### 5、第三方SKU组件
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/12531cfc-1b2b-4f18-96a0-457969592fbe)
@@ -664,6 +691,7 @@ watch([elementX, elementY, isOutside], () => {
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/70b3eac5-61bb-4ebd-9f2d-a9b106fd4ded)
 
+<br>
 
 ### 6、全局组件差异化配置
 
@@ -678,6 +706,8 @@ export const componentPlugin = {
     }
 }
 ```
+
+<br>
 
 ## 七、注册登录
 
@@ -698,6 +728,8 @@ export const componentPlugin = {
     component: Register
 }
 ```
+
+<br>
 
 ### 2、保持用户登录状态
 
@@ -736,6 +768,7 @@ export const componentPlugin = {
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/ad2e440e-830b-42b4-aa8e-be6860af4c98)
 
+<br>
 
 ### 3、axios拦截器设置
 
@@ -789,6 +822,8 @@ error的具体封装消息
   })
   ```
 
+<br>
+
 ## 八、结算支付
 
 ### 1、创建订单并跳转支付
@@ -828,7 +863,7 @@ error的具体封装消息
   }
   ```
 
-  
+<br>
 
 ### 2、支付倒计时显示
 
@@ -864,7 +899,7 @@ export const useCountDown = () => {
 }
 ```
 
-
+<br>
 
 ### 3、调用沙箱支付接口
 
@@ -882,6 +917,8 @@ const payUrl = `${baseURL}pay/aliPay?orderId=${route.query.id}&redirect=${redire
 
 支付密码：111111
 
+<br>
+
 ## 九、个人中心
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/5e3b5578-7fc6-43d9-b0df-dd4a8e1c7de9)
@@ -889,7 +926,7 @@ const payUrl = `${baseURL}pay/aliPay?orderId=${route.query.id}&redirect=${redire
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/af76fe97-f331-4539-935e-c2ff622e7c2a)
 
-
+<br>
 
 ### 1、订单状态
 
@@ -907,6 +944,8 @@ const fomartPayState = (payState) => {
 }
 ```
 
+<br>
+
 ### 2、tab栏切换
 
 ```
@@ -915,5 +954,6 @@ const tabChange = (type) => {
   getOrderList()
 }
 ```
+<br>
 
 ### 因为没有写注册的接口，所以注册信息无法写入数据库
