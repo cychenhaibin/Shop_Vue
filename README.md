@@ -60,21 +60,25 @@
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/abbc09a7-805d-4763-bf91-56f2eace0bfb)
 
+<br>
 
 ### 2、elementPlus按需导入
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/e5f7e09e-635d-4341-8e9a-2fe5aea35895)
 
+<br>
 
 ### 3、项目主题色与scss样式自动导入（蓝色改绿色）
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/55fbc8c4-9c4c-4036-9606-725c9b0c70d7)
 
+<br>
 
 ### 4、axios配置
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/f590cf96-3ab0-41ad-9c27-b544f968dc3d)
 
+<br>
 
 - axios请求拦截器，进行token身份验证
 - axios响应拦截器，进行错误的统一提示，token失效的处理等
