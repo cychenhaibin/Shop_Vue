@@ -8,13 +8,13 @@
 接口来自黑马的小兔鲜
 ## 技术栈
 
-工程化构建工具:Vue-cli -> Vite 
+工程化构建工具：Vue-cli -> Vite 
 
-数据状态管理:VueX -> Pinia 
+数据状态管理：VueX -> Pinia 
 
-组件库:Element -> ElementPlus 
+组件库：Element -> ElementPlus 
 
-开发框架:Vue2 选项式 -> Vue3 组合式API 
+开发框架：Vue2 选项式 -> Vue3 组合式API 
 
 路由管理：Vue-Router 
 
@@ -921,7 +921,8 @@ const payUrl = `${baseURL}pay/aliPay?orderId=${route.query.id}&redirect=${redire
 
 ## 九、个人中心
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/5e3b5578-7fc6-43d9-b0df-dd4a8e1c7de9)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/c6d78548-aa2c-4b2f-91f2-7ba8d8850b5b)
+
 
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/af76fe97-f331-4539-935e-c2ff622e7c2a)
