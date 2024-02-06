@@ -68,25 +68,25 @@
 
 ### 1、项目创建
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/abbc09a7-805d-4763-bf91-56f2eace0bfb)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/065275f9-7dd2-4811-ab8e-4d95b6205990)
 
 <br>
 
 ### 2、elementPlus按需导入
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/e5f7e09e-635d-4341-8e9a-2fe5aea35895)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/685edb13-3f67-4631-b64f-e3f39daa623c)
 
 <br>
 
 ### 3、项目主题色与scss样式自动导入（蓝色改绿色）
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/55fbc8c4-9c4c-4036-9606-725c9b0c70d7)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/3aac3481-e494-4f9f-b326-d29e8cfa97df)
 
 <br>
 
 ### 4、axios配置
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/f590cf96-3ab0-41ad-9c27-b544f968dc3d)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/d6a3366f-cd4b-4c1b-9724-928baf0e498e)
 
 
 - axios请求拦截器，进行token身份验证
@@ -98,16 +98,13 @@
 
 - 一级路由
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/a3e0b1ea-f70f-454d-8fa7-8c67d29fa076)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/7b38c2c6-4624-448f-a815-d8a560d9a8fd)
 
-- views/Layout/index.vue
-- views/Login/index.vue
-  =======
   - views/Layout/index.vue
   - views/Login/index.vue
 - 二级路由
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/79aa15b4-9935-452a-bf97-cc45c3575d3c)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/f8e90994-baad-438e-b0b3-879cade16fb8)
 
 - views/Home/index.vue
 - views/Category/index.vue
@@ -119,7 +116,7 @@
 
 ## 二、Layout布局结构
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/86f58b80-67e2-42ed-b038-d564fcab26be)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/e1c0ca73-1b59-44f4-be54-808e2d1c6484)
 
 <br>
 
@@ -127,20 +124,20 @@
 
 目录结构
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/ab71e592-fc32-4331-adf2-be5d9619c2b1)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/894d74d7-be5f-4036-9f81-fe909cb869c0)
 
 - 导航组件：LayoutNav
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/5b59c4da-c4d4-4cc8-b5fb-09c98f2a70df)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/cf11d9da-d5b8-4095-922f-5b8a26b81177)
 
 - 头部组件：LayoutHeader
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/6120ab6d-bfb5-4a38-ad13-1d9e8c21c38c)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/71b78f46-b269-4b7a-b11d-403f8084dcb2)
 
 
 - 底部组件：LayoutFooter
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/465ecc75-cc73-4eb6-aac5-002aa1ab6e90)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/c620416c-d77a-4681-9da4-6347dc45c25a)
 
 <br>
 
@@ -152,22 +149,18 @@
 <link rel="stylesheet" href="//at.alicdn.com/t/font_2143783_iq6z4ey5vu.css">
 ```
 
-
-阿里图标矢量图
-=======
 阿里图标矢量图 
 
 https://www.iconfont.cn
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/95da9b9f-1751-408d-beaa-f707fbd1aea8)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/2d1e6547-0c31-4e2d-822a-6169248dd322)
 
 <br>
 
 
 ### 3、Header导航动态渲染
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/1228623b-5339-4c71-b5fc-94a1dbbc767e)
-
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/5c048d23-f67e-4fd6-85b6-d88f9d03988e)
 
 - apis/layout.js
 
@@ -181,7 +174,8 @@ https://www.iconfont.cn
 
 在Sensors里 可以看到监视滚动的函数 useScroll
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/35f147d9-c6e1-40da-a498-30436f3ab36c)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/42203d3f-d826-4a3c-b922-fcba37cd490f)
+
 
 核心逻辑：根据滚动距离判断当前show类名是否显示，大于78显示，小于78，不显示
 
@@ -228,7 +222,8 @@ const categotyStore = useCategoryStore();
 
 优化设计
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/fa248461-6401-4f99-b604-fd41e901baec)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/35245bad-a410-4943-bd0c-ae09ae3c2fac)
+
 
 - stoes/categoryStore.js
 
@@ -255,7 +250,8 @@ const categotyStore = useCategoryStore();
 
 ### 1、需求分析与搭建组件结构
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/0085c110-6967-4291-87ce-1a1551ab091d)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/f40b7cfb-e725-4ea5-9c28-8fe2ba7d2d6b)
+
 
 
 - HomeCategory：左侧分类
@@ -297,7 +293,8 @@ export const lazyPlugin = {
 }
 ```
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/3526198a-8620-4646-94e1-51bd72b7d272)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/309160bf-513d-4a9c-b62f-0a4f8fbbcd60)
+
 
 <br>
 
@@ -335,7 +332,7 @@ defineProps({
 
 ### 1、一级面包屑导航
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/30f05e75-6b25-46ec-95f7-02a8e87245e1)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/5cc494c6-c3c2-472a-886f-1b164589ff31)
 
 
 ```javascript
@@ -401,10 +398,11 @@ scrollBehavior(){
 
 ### 3、业务逻辑函数拆分
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/b8828663-5a59-46ed-9f53-b76a0155e2f1)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/d46f05db-99f7-473c-a1ac-66376b4fd44e)
 
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/db4a2e2d-88c2-4bfc-9aa2-db619f6caebf)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/093c734d-56b1-4ff3-a923-94d294800a3d)
+
 
 <br>
 
@@ -436,7 +434,7 @@ scrollBehavior(){
 
 数据结构分析
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/a07cc85c-0d66-435e-8019-838a015feb04)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/e8335923-b35b-4fc8-b1bc-83fd82a68180)
 
 <br>
 
@@ -445,7 +443,7 @@ scrollBehavior(){
 
 ### 1、二级面包屑导航
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/0c05f94c-77e4-4105-b896-79cce3f2cda2)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/0c353e0c-d0c4-4aba-9b79-5c5678ab9302)
 
 ```vue
 <div class="bread-container">
@@ -465,15 +463,13 @@ scrollBehavior(){
 
 请求数据如下
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/dab8fa15-46d1-4798-b080-72aa40600b73)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/e03fb480-542f-446a-9897-64de70169122)
+
 
 <br>
 
 ### 3、列表的无限加载
 
-
-element-plus
-=======
 element-plus 
 
 https://element-plus.org/zh-CN/component/infinite-scroll.html#%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95
@@ -504,7 +500,7 @@ const load = async () => {
 <div class="body" v-infinite-scroll="load" :infinite-scroll-disabled="disabled">
 ```
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/fdf7e1a6-0b6d-43b1-8448-da45ef0bf03b)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/0fd168a5-3332-4723-b3e0-670e42731c2b)
 
 <br>
 
@@ -523,12 +519,11 @@ const load = async () => {
 
 ### 2、数据渲染
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/df22970f-edcb-4244-8b5a-a5c619e2a2b7)
-
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/4ca2f03d-61aa-43a5-be1b-e3774606a147)
 
 数据分析
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/d567864a-33b0-40fa-8a57-25ec5fee573f)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/82fcf65b-895e-41ae-95af-6f4e83b25360)
 
 <br>
 
@@ -593,10 +588,11 @@ onMounted(()=>getHotList())
 
 ### 4、小图切换大图、放大镜
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/241f2d05-bb07-465b-aa50-079fc4d61bab)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/9aff242a-8662-4ae2-b330-aef38dcbe563)
 
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/d1b60af3-7f47-44d3-b63c-22223a40b265)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/79bde5ba-a2b2-43ef-b772-701ccb8bb228)
+
 
 
 ```vue
@@ -690,13 +686,14 @@ watch([elementX, elementY, isOutside], () => {
 </template>
 ```
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/4dfd30fd-3137-4db3-ac6b-82afe09248cf)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/8814797c-c767-44c5-b5fb-1cbe7bdc7120)
+
 
 <br>
 
 ### 5、第三方SKU组件
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/12531cfc-1b2b-4f18-96a0-457969592fbe)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/d95be892-b3c5-4b20-b8c1-702cc766554f)
 
 
 第三方组件：
@@ -704,10 +701,10 @@ watch([elementX, elementY, isOutside], () => {
 问：在实际工作中，经常会遇到别人写好的组件，熟悉一个三方组件，首先重点看什么？
 答：props和emit，props决定了当前组件接收什么数据，emit决定了会产出什么数据
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/773cb63e-fac9-406c-a075-13c4be468a93)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/65360f75-d78a-4b7f-b71d-1bbab8d476d1)
 
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/6fc117bd-6f28-472e-b675-efa34cbf3e7d)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/5510e79b-15c7-41a5-b9b5-98d7bdcd1e63)
 
 
 <br>
@@ -783,8 +780,7 @@ export const componentPlugin = {
   )
   ```
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/745f92c7-a1f2-4b48-aa3c-f8311ba7defe)
-
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/89057031-21c5-4a4d-8d1f-5b351c3f37bb)
 
 <br>
 
@@ -805,8 +801,7 @@ try {
 
 error的具体封装消息
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/1797a413-9ad2-4619-8fc0-788f5e57f31b)
-
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/83e31ff7-de2c-405e-990d-aec3b2be13b8)
 
 
 - 请求拦截器携带token
@@ -822,7 +817,8 @@ error的具体封装消息
   }, e => Promise.reject(e))
   ```
 
-  ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/060b6058-8fc0-40ea-adb1-66574fcacab2)
+  ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/758e1501-83d2-45bd-a5ca-2edca4302471)
+
 
 
 
@@ -887,7 +883,8 @@ error的具体封装消息
 
 ### 2、支付倒计时显示
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/d0b4cdec-c4a7-4c12-89bf-6a07469d8f7b)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/675753dd-4766-4e33-a09a-9b9f8b2a7e46)
+
 
 
 
@@ -942,11 +939,11 @@ const payUrl = `${baseURL}pay/aliPay?orderId=${route.query.id}&redirect=${redire
 
 ## 九、个人中心
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/c6d78548-aa2c-4b2f-91f2-7ba8d8850b5b)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/89e39413-0194-475a-9a71-6e6327cb2518)
 
 
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/af76fe97-f331-4539-935e-c2ff622e7c2a)
+![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/23aac9e6-4e0f-4bc5-b85f-e02c132e1a99)
 
 <br>
 
