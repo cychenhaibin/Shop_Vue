@@ -7,8 +7,7 @@
 后端接口文档：[https://www.apifox.cn/apidoc/shared-c05cb8d7-e591-4d9c-aff8-11065a0ec1de/api-67132167](https://www.apifox.cn/apidoc/shared-c05cb8d7-e591-4d9c-aff8-11065a0ec1de/api-67132167)<br>接口来自黑马的小兔鲜
 ## 技术栈
 
-<<<<<<< HEAD
-工程化构建工具：Vue-cli -> Vite
+## 工程化构建工具：Vue-cli -> Vite
 
 数据状态管理：VueX -> Pinia
 
@@ -27,7 +26,6 @@
 开发框架：Vue2 选项式 -> Vue3 组合式API 
 
 路由管理：Vue-Router 
->>>>>>> origin/master
 
 实用函数应用：VueUse
 
@@ -62,11 +60,8 @@
 - 调用沙箱支付接口
 - 订单状态
 - 项目部署到了服务器
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> origin/master
+
 # 整体项目介绍
 
 ## 一、项目初始化
@@ -105,27 +100,19 @@
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/a3e0b1ea-f70f-454d-8fa7-8c67d29fa076)
 
-<<<<<<< HEAD
 - views/Layout/index.vue
 - views/Login/index.vue
-=======
+  =======
   - views/Layout/index.vue
   - views/Login/index.vue
->>>>>>> origin/master
-
 - 二级路由
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/79aa15b4-9935-452a-bf97-cc45c3575d3c)
 
-
-<<<<<<< HEAD
 - views/Home/index.vue
 - views/Category/index.vue
-=======
   - views/Home/index.vue
   - views/Category/index.vue
->>>>>>> origin/master
-
 - 渲染显示：RouterView
 
 <br>
@@ -165,11 +152,10 @@
 <link rel="stylesheet" href="//at.alicdn.com/t/font_2143783_iq6z4ey5vu.css">
 ```
 
-<<<<<<< HEAD
+
 阿里图标矢量图
 =======
 阿里图标矢量图 
->>>>>>> origin/master
 
 https://www.iconfont.cn
 
@@ -485,11 +471,10 @@ scrollBehavior(){
 
 ### 3、列表的无限加载
 
-<<<<<<< HEAD
+
 element-plus
 =======
 element-plus 
->>>>>>> origin/master
 
 https://element-plus.org/zh-CN/component/infinite-scroll.html#%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95
 
@@ -772,12 +757,6 @@ export const componentPlugin = {
   ```
   npm i pinia-plugin-persistedstate
   ```
-
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> origin/master
 
   ```javascript
   export const useUserStore = defineStore(
