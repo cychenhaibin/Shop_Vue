@@ -92,6 +92,8 @@
 
   - views/Layout/index.vue
   - views/Login/index.vue
+
+
 - 二级路由
 
 ![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/f8e90994-baad-438e-b0b3-879cade16fb8)
