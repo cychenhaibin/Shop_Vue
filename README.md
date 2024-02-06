@@ -285,7 +285,8 @@ export const lazyPlugin = {
 }
 ```
 
-![image](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/309160bf-513d-4a9c-b62f-0a4f8fbbcd60)
+![129BC6881B263882735E61D0AC7BCE25](https://github.com/cychenhaibin/Shop_Vue/assets/117504781/4fba4ae6-36be-4c7c-bae2-001a1ba8b97c)
+
 
 
 <br>
