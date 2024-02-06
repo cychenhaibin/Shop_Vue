@@ -7,16 +7,6 @@
 后端接口文档：[https://www.apifox.cn/apidoc/shared-c05cb8d7-e591-4d9c-aff8-11065a0ec1de/api-67132167](https://www.apifox.cn/apidoc/shared-c05cb8d7-e591-4d9c-aff8-11065a0ec1de/api-67132167)<br>接口来自黑马的小兔鲜
 ## 技术栈
 
-## 工程化构建工具：Vue-cli -> Vite
-
-数据状态管理：VueX -> Pinia
-
-组件库：Element -> ElementPlus
-
-开发框架：Vue2 选项式 -> Vue3 组合式API
-
-路由管理：Vue-Router
-=======
 工程化构建工具：Vue-cli -> Vite 
 
 数据状态管理：VueX -> Pinia 
@@ -730,6 +720,9 @@ export const componentPlugin = {
 正确账号密码
 
 账号：heima290
+
+<br>
+
 密码：hm#qd@23!
 
 ### 1、路由
@@ -932,6 +925,8 @@ const payUrl = `${baseURL}pay/aliPay?orderId=${route.query.id}&redirect=${redire
 账号：askgxl8276@sandbox.com
 
 登录密码：111111
+
+<br>
 
 支付密码：111111
 
