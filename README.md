@@ -92,7 +92,7 @@
 
   - views/Layout/index.vue
   - views/Login/index.vue
-
+<br>
 
 - 二级路由
 
@@ -722,7 +722,6 @@ export const componentPlugin = {
 正确账号密码
 
 账号：heima290
-
 <br>
 
 密码：hm#qd@23!
@@ -927,7 +926,6 @@ const payUrl = `${baseURL}pay/aliPay?orderId=${route.query.id}&redirect=${redire
 账号：askgxl8276@sandbox.com
 
 登录密码：111111
-
 <br>
 
 支付密码：111111
