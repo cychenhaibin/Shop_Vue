@@ -103,7 +103,10 @@ const doLogin = ()=>{
               </el-form-item>
               <el-button size="large" class="subBtn" @click="doLogin">点击登录</el-button>
             </el-form>
+<<<<<<< HEAD
             <div><a href="javascript:;" @click="$router.push('/register')">没有账号？点击注册</a></div>
+=======
+>>>>>>> origin/master
           </div>
         </div>
       </div>

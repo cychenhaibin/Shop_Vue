@@ -1,4 +1,5 @@
 <script setup>
+<<<<<<< HEAD
 import {ref} from 'vue'
 import {loginAPI} from "@/apis/user.js";
 import {ElMessage} from "element-plus";
@@ -55,6 +56,12 @@ const doRegister = ()=>{
 
 
 
+=======
+
+</script>
+
+
+>>>>>>> origin/master
 <template>
   <div>
     <header class="login-header">
@@ -76,6 +83,7 @@ const doRegister = ()=>{
         </nav>
         <div class="account-box">
           <div class="form">
+<<<<<<< HEAD
             <el-form ref="formRef" :model="form" :rules="rules" label-position="right" label-width="60px"
                      status-icon>
               <el-form-item  label="账户" prop="account">
@@ -91,6 +99,22 @@ const doRegister = ()=>{
               </el-form-item>
               <el-button size="large" class="subBtn" @click="doRegister">点击注册</el-button>
               <div><a href="javascript:;" @click="$router.push('/login')">已有账号？点击登录</a></div>
+=======
+            <el-form label-position="right" label-width="60px"
+                     status-icon>
+              <el-form-item  label="账户">
+                <el-input/>
+              </el-form-item>
+              <el-form-item label="密码">
+                <el-input/>
+              </el-form-item>
+              <el-form-item label-width="22px">
+                <el-checkbox  size="large">
+                  我已同意隐私条款和服务条款
+                </el-checkbox>
+              </el-form-item>
+              <el-button size="large" class="subBtn">点击注册</el-button>
+>>>>>>> origin/master
             </el-form>
           </div>
         </div>
@@ -168,7 +192,11 @@ const doRegister = ()=>{
     width: 380px;
     background: #fff;
     position: absolute;
+<<<<<<< HEAD
     left: 10%;
+=======
+    left: 50%;
+>>>>>>> origin/master
     top: 54px;
     transform: translate3d(100px, 0, 0);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
